@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>226789 – AI Screen Assistant · Cài đặt tiện ích</title>
+<meta name="description" content="Cài đặt tiện ích AI Screen Assistant cho Chrome trong một bước.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#0b1020">
+<link rel="canonical" href="https://chromewebstore.google.com/detail/mijpkahfmmldfoijfgclibogknhknknc">
+<meta property="og:type" content="website">
+<meta property="og:title" content="226789 – AI Screen Assistant">
+<meta property="og:description" content="Khoanh vùng màn hình, phân tích bằng AI và chỉ hiện dấu ✓ khi có đáp án.">
+<style>
+  :root{
+    --bg:#0b1020;
+    --card:#121a33;
+    --line:rgba(255,255,255,.10);
+    --text:#eef2ff;
+    --muted:#9aa6c7;
+    --accent:#4f7cff;
+    --accent2:#7c5cff;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    background:
+      radial-gradient(1000px 600px at 50% -10%, rgba(79,124,255,.28), transparent 60%),
+      radial-gradient(800px 500px at 100% 100%, rgba(124,92,255,.18), transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{
+    width:100%;
+    max-width:440px;
+    text-align:center;
+    background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));
+    border:1px solid var(--line);
+    border-radius:24px;
+    padding:40px 28px 32px;
+    box-shadow:0 24px 60px -20px rgba(0,0,0,.7);
+  }
+  .icon{
+    width:76px;height:76px;
+    margin:0 auto 20px;
+    display:grid;place-items:center;
+    border-radius:20px;
+    background:linear-gradient(145deg,var(--accent),var(--accent2));
+    box-shadow:0 12px 30px -10px rgba(79,124,255,.9);
+  }
+  .icon svg{width:40px;height:40px;display:block}
+  h1{
+    margin:0 0 8px;
+    font-size:22px;
+    line-height:1.25;
+    letter-spacing:-.01em;
+  }
+  .sub{
+    margin:0 0 26px;
+    color:var(--muted);
+    font-size:14.5px;
+    line-height:1.55;
+  }
+  .btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    padding:15px 20px;
+    border-radius:14px;
+    background:linear-gradient(180deg,var(--accent),#3f68e6);
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    box-shadow:0 10px 24px -10px rgba(79,124,255,.95);
+    transition:transform .15s ease,filter .15s ease;
+  }
+  .btn:hover{filter:brightness(1.08)}
+  .btn:active{transform:translateY(1px)}
+  .btn svg{width:18px;height:18px}
+  .hint{
+    margin:16px 0 0;
+    font-size:12.5px;
+    color:var(--muted);
+    line-height:1.5;
+  }
+  .brand{
+    margin:26px 0 0;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    font-size:12px;
+    color:#6d7a9c;
+    letter-spacing:.04em;
+  }
+  @media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2.5" y="4" width="19" height="13" rx="2.5"/>
+        <path d="M8 21h8M12 17v4"/>
+        <path d="m8.6 10.6 2.2 2.2 4.6-4.6"/>
+      </svg>
+    </div>
+
+    <h1>226789 – AI Screen Assistant</h1>
+    <p class="sub">Tiện ích đang được mở trên Chrome Web Store.<br>Bấm <strong>Thêm vào Chrome</strong> để hoàn tất cài đặt.</p>
+
+    <a class="btn" id="cta" href="https://chromewebstore.google.com/detail/mijpkahfmmldfoijfgclibogknhknknc?hl=vi" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 2a10 10 0 0 1 8.66 5H12.9a3 3 0 0 1 2.6 1.5L18.7 5A9.96 9.96 0 0 1 22 12a10 10 0 0 1-5 8.66l2.6-4.5A3 3 0 0 0 15 12a3 3 0 0 0-.34 1.38L12 9l-3.34 5.8A3 3 0 0 0 9 12a3 3 0 0 0 .34-1.38L6.5 15.5A9.96 9.96 0 0 1 2 12a10 10 0 0 1 10-10Z"/>
+      </svg>
+      Thêm vào Chrome
+    </a>
+
+    <p class="hint">Miễn phí · Dùng ngay, không cần đăng nhập.<br>Nếu trang không tự chuyển, hãy bấm nút phía trên.</p>
+
+    <p class="brand">congnghetayninh.id.vn</p>
+  </main>
+
+  <script>
+    (function () {
+      var target = "https://chromewebstore.google.com/detail/mijpkahfmmldfoijfgclibogknhknknc?hl=vi";
+      var go = function () { window.location.replace(target); };
+      // Nhường 1 nhịp để trang hiển thị, rồi chuyển thẳng tới Chrome Web Store.
+      if (window.requestAnimationFrame) {
+        requestAnimationFrame(function () { setTimeout(go, 500); });
+      } else {
+        setTimeout(go, 500);
+      }
+    })();
+  </script>
+</body>
+</html>
